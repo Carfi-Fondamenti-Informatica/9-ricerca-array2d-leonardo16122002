@@ -13,10 +13,10 @@ int cerca(char a[10][20], char n[20]){
             }
             if((a[i][j]==n[j]||a[i][j]==(n[j]+32)||a[i][j]==(n[j]-32))&&n[j]=='\0'){
                 
-            }
+            }*/
             if((a[i][j]!=n[j])&&(a[i][j]!=(n[j]-32))&&(a[i][j]!=n[j]+32)){
                 break;
-            }*/
+            }
             if((a[i][j]==n[j]||a[i][j]==n[j]-32||a[i][j]==n[j]+32)&&n[j]=='\0'){
                 return i;
             }
